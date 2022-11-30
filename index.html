@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body id="body">
+
+  <main id="main" class="flex">
+    <header class="notification-header flex">
+      <h2 class="h2">
+        <span class="notification-h2">Notifications</span> 
+        <span class="notification-number">3</span>
+      </h2>
+      <p class="header-para">
+        Mark all as read
+      </p>
+    </header>
+    <div class="notification-div flex">
+      <div class="notification flex unread">
+        <figure class="figure flex">
+          <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber" class="avatar">
+          <figcaption class="caption flex">
+            <p class="para">
+              <span class="name">
+                Mark Webber
+              </span> 
+              reacted to your recent post 
+              <span class="message">
+                My first tournament today!
+              </span>
+              <i id="fas" class="fas fa-circle fa-sm fa-fw"></i>
+            </p>
+            <small class="time">
+              1m ago
+            </small>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="notification flex unread">
+        <figure class="figure flex">
+          <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray" class="avatar">
+          <figcaption class="caption flex">
+            <p class="para">
+              <span class="name">
+                Angela Gray
+              </span> followed you
+              <i id="fas" class="fas fa-circle fa-sm fa-fw"></i>
+            </p>
+            <small class="time">
+              5m ago
+            </small>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="notification flex unread">
+        <figure class="figure flex">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson" class="avatar">
+          <figcaption class="caption flex">
+            <p class="para">
+              <span class="name">
+                Jacob Thompson
+              </span> 
+              has joined your group 
+              <span class="chess-message">
+                Chess Club
+              </span>
+              <i id="fas" class="fas fa-circle fa-sm fa-fw"></i>
+            </p>
+            <small class="time">
+              1 day ago
+            </small>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="notification">
+        <figure class="figure flex">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" class="avatar">
+          <figcaption class="caption flex">
+            <p class="para">
+              <span class="name">
+                Rizky Hasanuddin
+              </span> sent you a private message
+            </p>
+            <small class="time">
+              5 days ago
+            </small>
+          </figcaption>
+        </figure>
+        <div id="rizky-message" class="flex">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+          I'm already having lots of fun and improving my game.
+        </div>
+      </div>
+
+      <div class="notification flex">
+        <figure class="figure flex">
+          <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith" class="avatar">
+          <figcaption class="caption flex">
+            <p class="para">
+              <span class="name">
+                Kimberly Smith
+              </span> commented on your picture
+            </p>
+            <small class="time">
+              1 week ago
+            </small>
+          </figcaption>
+        </figure>
+        <img src="assets/images/image-chess.webp" alt="chess" class="kimberly-chess">
+      </div>
+
+      <div class="notification flex">
+        <figure class="figure flex">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson" class="avatar">
+          <figcaption class="caption flex">
+            <p class="para">
+              <span class="name">
+                Nathan Peterson
+              </span> 
+              reacted to your recent post 
+              <span class="message">
+                5 end-game strategies to increase your win rate
+              </span>
+            </p>
+            <small class="time">
+              2 weeks ago
+            </small>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="notification flex">
+        <figure class="figure flex">
+          <img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim" class="avatar">
+          <figcaption class="caption flex">
+            <p class="para">
+              <span class="name">
+                Anna Kim
+              </span> 
+              left the group
+              <span class="chess-message">
+                Chess Club
+              </span> 
+            </p>
+            <small class="time">
+              2 weeks ago
+            </small>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://macchristo.github.io/Personal-site-1/"
+        >Macaulay Omoikhoje De-great</a
+      >.
+    </p>
+  </footer>
+  <script
+  src="https://kit.fontawesome.com/bfb745bc9a.js"
+  crossorigin="anonymous"
+></script>
+<script src="script.js"></script>
+</body>
+</html>
